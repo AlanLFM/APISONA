@@ -4,7 +4,6 @@ const app=express();
 const morgan=require("morgan");
 const mongoose = require('mongoose');
 const multer=require("multer")
-const {appConfig}=require("../API/config")
 
 const dotenv=require("dotenv");
 const { default: helmet } = require("helmet");
